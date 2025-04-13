@@ -35,13 +35,9 @@ kubectl apply -f k8s/service.yaml
 ```
 
 ### **3. Access the Application**  
-**Option A: Port Forwarding**  
-```bash  
-kubectl port-forward svc/calculator-service 8080:80  
-# Access at http://localhost:8080  
-```  
 
-**Option B: Minikube Service URL**  
+
+** Minikube Service URL**  
 ```bash  
 minikube service calculator-service --url  
 ```  
