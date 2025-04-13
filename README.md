@@ -4,7 +4,6 @@
 - 🚀 Deployment of a containerized Node.js calculator application to Kubernetes  
 - ⚙️ Configuration of Kubernetes manifests (Deployment + Service)  
 - 🔄 CI/CD-ready structure with Docker and Kubernetes integration  
-- 📊 Verification of deployment through screenshots and logs  
 
 ## **Prerequisites**  
 | Tool | Installation Guide |  
