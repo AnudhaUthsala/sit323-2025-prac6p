@@ -1,5 +1,4 @@
 
-![Kubernetes Logo](https://kubernetes.io/images/favicon.png)  
 
 ## **Project Overview**  
 This repository contains the submission for **Task 6.1P-2** demonstrating:  
@@ -116,7 +115,5 @@ spec:
 - [x] Screenshots of successful deployment  
 - [x] Detailed README documentation  
 
-## **License**  
-[MIT License](LICENSE)  
 
 ---  
