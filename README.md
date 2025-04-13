@@ -1,7 +1,7 @@
 
 
 ## **Project Overview**  
-This repository contains the submission for **Task 6.1P-2** demonstrating:  
+This repository contains the submission for **Task 6.1C** demonstrating:  
 - 🚀 Deployment of a containerized Node.js calculator application to Kubernetes  
 - ⚙️ Configuration of Kubernetes manifests (Deployment + Service)  
 - 🔄 CI/CD-ready structure with Docker and Kubernetes integration  
@@ -97,13 +97,12 @@ spec:
   type: NodePort  
 ```  
 
-## **Troubleshooting Guide**  
+## **Troubleshooting Guide**
 
 | Error | Solution |  
 |-------|----------|  
 | `ImagePullBackOff` | Ensure `imagePullPolicy: Never` for local images |  
 | `Pending` pods | Increase resources: `minikube start --memory=4096 --cpus=4` |  
 | Port conflicts | Verify no local services using port 8080 |  
-
 
 ---  
