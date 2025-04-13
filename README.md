@@ -30,8 +30,8 @@ eval $(minikube docker-env)
 docker build -t calculator-app:1.0 .  
 
 # Apply Kubernetes configurations  
-kubectl apply -f k8s/deployment.yaml  
-kubectl apply -f k8s/service.yaml  
+kubectl apply -f deployment.yaml  
+kubectl apply -f service.yaml  
 ```
 
 ### **3. Access the Application**  
