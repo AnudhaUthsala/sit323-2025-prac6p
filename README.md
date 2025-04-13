@@ -109,11 +109,5 @@ spec:
 | `Pending` pods | Increase resources: `minikube start --memory=4096 --cpus=4` |  
 | Port conflicts | Verify no local services using port 8080 |  
 
-## **Submission Checklist**  
-- [x] Kubernetes manifests (`deployment.yaml`, `service.yaml`)  
-- [x] Dockerfile and application source code  
-- [x] Screenshots of successful deployment  
-- [x] Detailed README documentation  
-
 
 ---  
