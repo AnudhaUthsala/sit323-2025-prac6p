@@ -1,7 +1,6 @@
 
 
 ## **Project Overview**  
-This repository contains the submission for **Task 6.1C** demonstrating:  
 - 🚀 Deployment of a containerized Node.js calculator application to Kubernetes  
 - ⚙️ Configuration of Kubernetes manifests (Deployment + Service)  
 - 🔄 CI/CD-ready structure with Docker and Kubernetes integration  
