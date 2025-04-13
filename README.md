@@ -61,7 +61,7 @@ minikube service calculator-service --url
 
 ### **Deployment Manifest**  
 ```yaml  
-# k8s/deployment.yaml  
+# deployment.yaml  
 apiVersion: apps/v1  
 kind: Deployment  
 metadata:  
@@ -86,7 +86,7 @@ spec:
 
 ### **Service Manifest**  
 ```yaml  
-# k8s/service.yaml  
+# service.yaml  
 apiVersion: v1  
 kind: Service  
 metadata:  
