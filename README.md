@@ -37,7 +37,7 @@ kubectl apply -f service.yaml
 ### **3. Access the Application**  
 
 
-** Minikube Service URL**  
+**Minikube Service URL**  
 ```bash  
 minikube service calculator-service --url  
 ```  
